@@ -1,0 +1,161 @@
+body {
+    font-family: monospace;
+    background-size: cover;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    position: relative; 
+}
+
+.panellogwania {
+    width: 340px;
+    height: 900px;
+    text-align: center;
+    background-color: rgb(5, 10, 71);
+    left: 0; 
+    margin-left: 0px; 
+}
+
+.tytul {
+    width: 100%;
+    padding: 20px 0;
+    width: 2000px;
+    margin: auto;
+    text-align: left;
+    color: aliceblue;
+    padding: 20px; 
+    position: fixed;
+    top: 0;
+    left: 50;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    block-size: 32px;
+    font-size: 32px;
+    font-family: monospace;
+}
+
+.input2 {
+    width: 100%;
+    width: 330px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-right: auto;
+    padding: auto;
+    padding-left: auto;
+}
+
+button {
+    background-color: rgb(25, 25, 36);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 32px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 70px;
+    cursor: pointer;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+}
+
+.naglowek {
+    width: 100%;
+    padding: 20px 0;
+    width: 2000px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(5, 10, 71);
+    padding: 20px; 
+    position: fixed;
+    top: 0;
+    left: 50;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    block-size: 32px;
+    font-size: 32px;
+    font-family: monospace;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(5, 10, 71);
+    width: 100%;  
+    position: fixed;  
+    bottom: 0;  
+    left: 0;
+    z-index: 1000;  
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    block-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.formularzrejestracji {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+select {
+    width: 100%;
+    width: 600px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-right: auto;
+    padding: auto;
+    padding-left: auto;
+    margin-left: 5px;
+}
+
+.input1 {
+    width: 100%;
+    width: 600px;
+    font-family: monospace;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-right: auto;
+    padding: auto;
+    padding-left: auto;
+}
+
+.wysylkaformularza {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.Podziekowanie {
+    font-family: monospace;
+    font-size: 30px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    width: 800px;
+    height: 300px;
+}
