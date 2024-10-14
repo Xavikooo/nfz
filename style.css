@@ -51,7 +51,7 @@ body {
     padding-left: auto;
 }
 
-button {
+.zaloguj {
     background-color: rgb(25, 25, 36);
     color: rgb(255, 255, 255);
     border: none;
@@ -148,14 +148,44 @@ select {
 }
 
 .Podziekowanie {
+    max-width: fit-content;
+
+    position: relative;
+    margin-bottom: 100px;
     font-family: monospace;
     font-size: 30px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
     color: aliceblue;
+    margin-left: 180px;
+}
+
+.powrot {
     width: 100%;
     height: 100%;
-    width: 800px;
-    height: 300px;
+    width: 300px;
+    height: 30px;
+    margin-left: 850px;
+    position: relative;
+    max-width: fit-content;
+    cursor: pointer;
+    
+}
+
+button {
+    background-color: rgb(25, 25, 36);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 32px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 70px;
+    cursor: pointer;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+}
+
+
+.Powrót {
+    max-width: fit-content;
 }

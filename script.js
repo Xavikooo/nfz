@@ -42,5 +42,9 @@ function wysylkaformularza() {
 
   }
 
+  function powrot() {
+    console.log("Powrócono do formularza");
+    window.location.href = 'next_page.html';
+  }
 
   
